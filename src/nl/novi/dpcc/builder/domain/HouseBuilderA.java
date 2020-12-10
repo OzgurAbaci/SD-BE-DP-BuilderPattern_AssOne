@@ -1,6 +1,6 @@
 package nl.novi.dpcc.builder.domain;
 
-public class HouseBuilder {
+public class HouseBuilderA {
     private String streetName;
     private int housenumber;
     private String houseNumberAddition;
@@ -10,35 +10,35 @@ public class HouseBuilder {
     private String province;
     private boolean hasGarden = false;
 
-    public HouseBuilder(){
+    public HouseBuilderA(){
     }
 
-    public HouseBuilder withStreetname(String streetName){
+    public HouseBuilderA withStreetname(String streetName){
         this.streetName = streetName;
         return this;
     }
 
-    public HouseBuilder withHousenumber(int housenumber){
+    public HouseBuilderA withHousenumber(int housenumber){
         this.housenumber = housenumber;
         return this;
     }
 
-    public HouseBuilder withHouseNumberAddition(String houseNumberAddition){
+    public HouseBuilderA withHouseNumberAddition(String houseNumberAddition){
         this.houseNumberAddition = houseNumberAddition;
         return this;
     }
 
-    public HouseBuilder withPostalCode(String postalCode){
+    public HouseBuilderA withPostalCode(String postalCode){
         this.postalCode = postalCode;
         return this;
     }
 
-    public HouseBuilder withProvince(String province){
+    public HouseBuilderA withProvince(String province){
         this.province = province;
         return this;
     }
 
-    public HouseBuilder withGarden(){
+    public HouseBuilderA withGarden(){
         this.hasGarden = true;
         return this;
     }
