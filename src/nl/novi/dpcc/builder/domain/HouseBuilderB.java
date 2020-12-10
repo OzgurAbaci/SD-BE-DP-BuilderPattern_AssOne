@@ -60,6 +60,7 @@ public class HouseBuilderB {
         if (postalCode == null) {
             throw new RuntimeException("Postal code cannot be empty");
         }
+
         return build();
     }
 
